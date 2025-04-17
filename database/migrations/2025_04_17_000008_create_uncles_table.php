@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('last_name', 100);
             $table->string('job');
             $table->text('provided_aid');
+            $table->timestamps();
         });
     }
 

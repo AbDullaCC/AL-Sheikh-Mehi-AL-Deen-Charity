@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('job');
             $table->enum('gender', ['male', 'female']);
             $table->text('health_status');
+            $table->timestamps();
         });
     }
 

@@ -15,8 +15,9 @@ return new class extends Migration
             $table->date('birth_date');
             $table->enum('gender', ['male', 'female']);
             $table->boolean('is_alive');
-            $table->string('partner_name');
+            $table->string('partner_name')->nullable();
             $table->text('residence_place');
+            $table->timestamps();
         });
     }
 

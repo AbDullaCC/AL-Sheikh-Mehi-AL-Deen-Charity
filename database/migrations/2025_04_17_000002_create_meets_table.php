@@ -12,6 +12,7 @@ return new class extends Migration
             $table->id();
             $table->text('name');
             $table->date('date');
+            $table->timestamps();
         });
     }
 

@@ -5,8 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="202d5dfe-1815-43b7-84e2-53d4acc512e9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2025_04_17_000002_create_meets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2025_04_17_000002_create_meets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2025_04_17_000003_create_requests_types_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2025_04_17_000003_create_requests_types_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2025_04_17_000004_create_groups_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2025_04_17_000004_create_groups_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2025_04_17_000005_create_requests_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2025_04_17_000005_create_requests_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2025_04_17_000006_create_beneficiaries_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2025_04_17_000006_create_beneficiaries_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2025_04_17_000007_create_children_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2025_04_17_000007_create_children_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2025_04_17_000008_create_uncles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2025_04_17_000008_create_uncles_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2025_04_17_000009_create_partners_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2025_04_17_000009_create_partners_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2025_04_17_000010_create_charities_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2025_04_17_000010_create_charities_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2025_04_17_000011_create_files_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2025_04_17_000011_create_files_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2025_04_17_000012_create_blocked_beneficiaries_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2025_04_17_000012_create_blocked_beneficiaries_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2025_04_17_000013_create_beneficiary_edits_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2025_04_17_000013_create_beneficiary_edits_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2025_04_17_000014_create_conditions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2025_04_17_000014_create_conditions_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2025_04_17_000015_create_groups_conditions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2025_04_17_000015_create_groups_conditions_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2025_04_17_000016_create_beneficiary_histories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2025_04_17_000016_create_beneficiary_histories_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2025_04_17_000017_create_salary_changes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2025_04_17_000017_create_salary_changes_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2025_04_17_000018_create_plans_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2025_04_17_000018_create_plans_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2025_04_17_000019_create_attributes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2025_04_17_000019_create_attributes_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2025_04_17_000020_create_plan_attributes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2025_04_17_000020_create_plan_attributes_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2025_04_17_000021_create_plans_beneficiaries_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2025_04_17_000021_create_plans_beneficiaries_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2025_04_17_000022_create_needs_requests_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2025_04_17_000022_create_needs_requests_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2025_04_17_000023_create_instant_aids_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2025_04_17_000023_create_instant_aids_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2025_04_17_000024_create_prescriptions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2025_04_17_000024_create_prescriptions_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +222,7 @@
       <workItem from="1744722015892" duration="2317000" />
       <workItem from="1744898035286" duration="1242000" />
       <workItem from="1744899312582" duration="3163000" />
-      <workItem from="1744902552388" duration="2036000" />
+      <workItem from="1744902552388" duration="4579000" />
     </task>
     <servers />
   </component>

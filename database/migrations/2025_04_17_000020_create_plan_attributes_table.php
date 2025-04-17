@@ -13,6 +13,7 @@ return new class extends Migration
             $table->foreignId('plan_id')->constrained('plans');
             $table->foreignId('attribute_id')->constrained('attributes');
             $table->integer('weight');
+            $table->timestamps();
         });
     }
 

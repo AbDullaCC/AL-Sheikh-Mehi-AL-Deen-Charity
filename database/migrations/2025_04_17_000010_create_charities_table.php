@@ -12,6 +12,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('beneficiary_id')->constrained('beneficiaries');
             $table->string('name')->unique();
+            $table->timestamps();
         });
     }
 

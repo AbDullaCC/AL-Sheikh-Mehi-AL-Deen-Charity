@@ -13,6 +13,7 @@ return new class extends Migration
             $table->text('name');
             $table->integer('salary');
             $table->text('color');
+            $table->timestamps();
         });
     }
 

@@ -13,9 +13,10 @@ return new class extends Migration
             $table->foreignId('plan_id')->constrained('plans');
             $table->foreignId('beneficiary_id')->constrained('beneficiaries');
             $table->boolean('is_turn');
-            $table->date('turn_to');
-            $table->date('received_at');
+            $table->date('turn_until');
+            $table->date('received_at')->nullable();
             $table->integer('order');
+            $table->timestamps();
         });
     }
 

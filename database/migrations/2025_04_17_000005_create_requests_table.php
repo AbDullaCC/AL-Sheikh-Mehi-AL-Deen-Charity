@@ -14,8 +14,8 @@ return new class extends Migration
             $table->text('owner_type');
             $table->integer('owner_id');
             $table->enum('status', ['accepted', 'rejected'])->nullable();
-            $table->foreignId('meet_id')->constrained('meets');
-            $table->timestamp('created_at');
+            $table->foreignId('meet_id')->nullable()->constrained('meets');
+            $table->timestamps();
         });
     }
 

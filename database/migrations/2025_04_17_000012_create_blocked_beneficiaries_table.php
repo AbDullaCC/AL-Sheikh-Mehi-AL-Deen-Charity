@@ -13,7 +13,8 @@ return new class extends Migration
             $table->foreignId('beneficiary_id')->constrained('beneficiaries');
             $table->text('reason');
             $table->foreignId('request_id')->constrained('requests');
-            $table->enum('request_status', ['accepted', 'rejected']);
+            $table->enum('request_status', ['accepted', 'rejected', 'pending']);
+            $table->timestamps();
         });
     }
 

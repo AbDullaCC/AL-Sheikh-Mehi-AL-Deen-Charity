@@ -13,6 +13,7 @@ return new class extends Migration
             $table->foreignId('group_id')->constrained('groups');
             $table->foreignId('condition_id')->constrained('conditions');
             $table->text('params');
+            $table->timestamps();
         });
     }
 

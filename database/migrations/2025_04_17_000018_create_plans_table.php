@@ -14,7 +14,7 @@ return new class extends Migration
             $table->text('description');
             $table->text('portion');
             $table->boolean('is_finished');
-            $table->date('created_at');
+            $table->timestamps();
         });
     }
 

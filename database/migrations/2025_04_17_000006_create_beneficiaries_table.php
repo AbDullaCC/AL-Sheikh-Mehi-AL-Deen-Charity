@@ -28,7 +28,8 @@ return new class extends Migration
             $table->text('case_description');
             $table->foreignId('group_id')->constrained('groups');
             $table->foreignId('request_id')->constrained('requests');
-            $table->enum('request_status', ['accepted', 'rejected'])->nullable();
+            $table->enum('request_status', ['accepted', 'rejected', 'pending'])->default('pending');
+            $table->timestamps();
         });
     }
 

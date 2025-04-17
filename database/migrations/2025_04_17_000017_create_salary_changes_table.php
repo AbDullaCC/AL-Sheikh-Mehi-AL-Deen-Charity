@@ -14,7 +14,7 @@ return new class extends Migration
             $table->integer('new_salary');
             $table->enum('type', ['once', 'permanent']);
             $table->date('month');
-            $table->date('created_at');
+            $table->timestamps();
         });
     }
 

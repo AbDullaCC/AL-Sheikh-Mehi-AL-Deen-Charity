@@ -11,8 +11,8 @@ return new class extends Migration
         Schema::create('beneficiary_histories', function (Blueprint $table) {
             $table->id();
             $table->foreignId('beneficiary_id')->constrained('beneficiaries');
-            $table->text('description');
-            $table->date('created_at');
+            $table->text('description')->comment('probably JSON');
+            $table->timestamps();
         });
     }
 
