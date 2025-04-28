@@ -10,7 +10,7 @@ return new class extends Migration
     {
         Schema::create('groups', function (Blueprint $table) {
             $table->id();
-            $table->text('name');
+            $table->text('name')->unique();
             $table->integer('salary');
             $table->text('color');
             $table->timestamps();

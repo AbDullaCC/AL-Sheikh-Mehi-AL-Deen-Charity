@@ -13,7 +13,7 @@ return new class extends Migration
             $table->foreignId('request_type_id')->constrained('requests_types');
             $table->text('owner_type');
             $table->integer('owner_id');
-            $table->enum('status', ['accepted', 'rejected'])->nullable();
+            $table->enum('status', ['accepted', 'rejected', 'pending'])->nullable();
             $table->foreignId('meet_id')->nullable()->constrained('meets');
             $table->timestamps();
         });

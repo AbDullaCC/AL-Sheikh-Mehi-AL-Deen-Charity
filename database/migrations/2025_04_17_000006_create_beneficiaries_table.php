@@ -14,6 +14,7 @@ return new class extends Migration
             $table->string('last_name', 100);
             $table->string('father_name', 100);
             $table->string('mother_name', 100);
+            $table->enum('gender', ['male', 'female']);
             $table->date('birth_date');
             $table->string('birth_place');
             $table->string('national_number', 50)->unique();
